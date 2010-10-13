@@ -14,10 +14,6 @@ sub convert_tags {
     my $blog = $args{'blog'};
     my $plugin = MT->component('HTMLTemplate');
 
-#require Data::Dumper;
-#${$args{'content'}} = Data::Dumper::Dumper($plugin->get_config_value('is_active', 'blog:' . $blog->id))
-
-    
     if ($plugin->get_config_value('is_active', 'blog:' . $blog->id)) {
 
         my $tmpl = $args{'template'};
