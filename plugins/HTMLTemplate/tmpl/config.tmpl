@@ -1,4 +1,11 @@
 <mtapp:setting
+    id="is_active"
+    label="<__trans phrase="Activate Plug-in">"
+    show_hint="0">
+    <input type="checkbox" id="is_active" name="is_active" <TMPL_IF NAME=IS_ACTIVE>checked="checked"</TMPL_IF>/>
+</mtapp:setting>
+
+<mtapp:setting
     id="html_template"
     label="<__trans phrase="Template Tag(s)">"
     show_hint="1"

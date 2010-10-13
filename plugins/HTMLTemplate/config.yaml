@@ -10,6 +10,9 @@ settings:
     html_template:
         default: ''
         scope: blog
+    is_active:
+        default: ''
+        scope: blog
 
 callbacks:
     build_page: $HTMLTemplate::HTMLTemplate::Plugin::convert_tags
