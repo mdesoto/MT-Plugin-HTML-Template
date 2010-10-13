@@ -1,3 +1,6 @@
+# Copyright 2010 Michael De Soto. This program is distributed under the 
+# terms of the GNU General Public License. Consult LICENSE for more information.
+
 package HTMLTemplate::Plugin;
 
 use strict;

@@ -1,0 +1,26 @@
+# HTML::Template plug-in for Melody and Movable Type
+
+Copyright 2010 Michael De Soto
+Distributed under the terms of the GNU General Public License
+
+## Overview
+
+The HTML::Template plug-in for Movable Type allows you to manage HTML::Template
+files used by external applications within Movable Type.
+
+By default, Movable Type strips out all template tags that use the 
+HTML::Template syntax <TMPL_* NAME=VALUE>. While HTML::Template allows the 
+alternative syntax <!-- TMPL_* NAME=VALUE -->, this uses seven more characters 
+than the default syntax and is often confused with regular HTML comments. Not
+the best solution.
+
+So, this plug-in allows you to come up with your own template tag syntax. After
+Movable Type builds a page, but before the page is published to the filesystem, 
+this plug-in steps in and swaps your new tag with valid HTML::Template tags.
+
+You can then consume templates with your framework of choice.
+
+## Prerequisites
+
+* Movable Type 5.031 (Earlier version probably work, but are untested).
+* Application that consumes HTML::Template style templates.
