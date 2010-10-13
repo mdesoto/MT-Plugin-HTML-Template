@@ -1,0 +1,15 @@
+id: HTMLTemplate
+name: HTML Template
+description: Movable Type plug-in allowing the management of HTML::Template style templates consumed by external applications.
+version: 0.01
+author_name: Michael De Soto
+author_link: http://www.quarg.com/
+plugin_link: http://www.quarg.com/
+blog_config_template: config.tmpl
+settings:
+    html_template:
+        default: ''
+        scope: blog
+
+callbacks:
+    build_page: $HTMLTemplate::HTMLTemplate::Plugin::convert_tags
