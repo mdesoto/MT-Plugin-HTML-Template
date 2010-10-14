@@ -1,7 +1,7 @@
 id: HTMLTemplate
 name: HTML::Template
 description: Movable Type plug-in allowing the management of HTML::Template style templates consumed by external applications.
-version: 0.02
+version: 0.04
 author_name: Michael De Soto
 author_link: http://www.quarg.com/
 plugin_link: http://www.quarg.com/

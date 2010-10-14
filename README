@@ -22,5 +22,5 @@ You can then consume templates with your framework of choice.
 
 ## Prerequisites
 
-* Movable Type 5.031 (Earlier version probably work, but are untested).
+* Movable Type 5.031 (Earlier versions probably work, but are untested).
 * Application that consumes HTML::Template style templates.
